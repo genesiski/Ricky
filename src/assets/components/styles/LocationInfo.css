@@ -1,0 +1,144 @@
+.Info {
+    display: flex;
+    justify-content: center;
+    background: #062226;
+    padding: 15px;
+    width: 85%;
+    color: white;
+    border-radius: 8px;
+}
+
+.Location__Info {
+
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    width: 100%;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+span {
+    font-size: 20px;
+    font-weight: 100px;
+
+}
+
+@media only screen and (max-width: 2000px) {
+
+    .Info {
+        display: flex;
+        justify-content: center;
+        background: #062226;
+        padding: 15px;
+        width: 90%;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .Location__Info {
+
+        display: flex;
+        flex-direction: row;
+        gap: 12rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    span {
+        font-size: 20px;
+        font-weight: 100px;
+
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .Info {
+        display: flex;
+        justify-content: center;
+        background: #062226;
+        padding: 15px;
+        width: 90%;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .Location__Info {
+
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    span {
+        font-size: 20px;
+        font-weight: 100px;
+
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .Info {
+        display: flex;
+        justify-content: center;
+        background: #062226;
+        padding: 15px;
+        width: 90%;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .Location__Info {
+
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    span {
+        font-size: 15px;
+        font-weight: 100px;
+
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 15px;
+    }
+}

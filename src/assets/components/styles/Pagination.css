@@ -1,0 +1,98 @@
+.List_Pagination {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding: 50px;
+    width: 100%;
+
+}
+
+.list_number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 20px;
+
+}
+
+.btn {
+
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.div_num {
+
+
+    cursor: pointer;
+    color: white;
+}
+
+.div_num:hover {
+
+    border: solid 1px white;
+    width: 30px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn:hover {
+
+    background-color: #062226;
+    color: white;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .List_Pagination {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+        padding: 50px;
+        width: 100%;
+
+    }
+
+    .list_number {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+        font-size: 20px;
+
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .List_Pagination {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2rem;
+            padding: 50px;
+            width: 100%;
+
+        }
+
+        .list_number {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 2rem;
+            font-size: 20px;
+
+        }
+
+    }
+}

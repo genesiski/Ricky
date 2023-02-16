@@ -1,0 +1,56 @@
+.Front__Page {
+
+    margin: 0 auto;
+}
+
+.Imagefondo {
+
+    margin: 0 auto;
+
+}
+
+.Image {
+
+
+    width: 40%;
+    align-items: center;
+    margin-top: 5px;
+    margin: 0 auto;
+    top: 90px;
+    left: 100px;
+    right: -250px;
+    position: absolute;
+
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    .Image {
+
+
+        width: 40%;
+        align-items: center;
+        margin-top: 5px;
+        margin: 0 auto;
+        top: 25px;
+        left: 100px;
+        right: 0;
+        position: absolute;
+
+    }
+
+    .Imagefondo {
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        position: relative;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+}
